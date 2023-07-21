@@ -188,7 +188,7 @@ function App() {
 		setTimeout(()=>{
 			setShowMessage(false)
 			setMessage('')
-		},7000)
+		},5000)
 	}
 	useEffect(() => {
 		randomize();
