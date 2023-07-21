@@ -194,7 +194,9 @@ function App() {
 		randomize();
 	}, []);
 
-	
+	useEffect(()=>{
+		restartAvatar()
+	},[])
 
 	
 
